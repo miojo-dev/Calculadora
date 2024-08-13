@@ -1,4 +1,14 @@
-#Calculadora em função única
+def adicao(a, b)
+    return a + b
+
+def subtracao(a, b)
+    return a - b
+
+def multiplicacao(a, b)
+    return a * b
+
+def divisao(a, b)
+    return a / b
 
 def calculadora():
     operacao = input("Escolha uma operação (+, -, *, /): ")
@@ -25,17 +35,3 @@ def calculadora():
         print("Operação inválida!")
 
 calculadora()
-
-#Calculadora com funções separadas por operadores
-
-def adicao(a, b)
-    return a + b
-
-def subtracao(a, b)
-    return a - b
-
-def multiplicacao(a, b)
-    return a * b
-
-def divisao(a, b)
-    return a / b
